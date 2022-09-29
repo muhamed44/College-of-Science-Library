@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+	background: #272727;
+}
+
+
+.contain {
+	height: 70px;
+	background-color: #272727;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 50px 0;
+}
+ 
+.library h3 {
+  font: normal 300 56px/1 'Ubuntu', sans-serif;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0 0 100px 0;
+  white-space: nowrap;
+  text-decoration: underline;
+}    
+.firstyear {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	overflow: hidden;
+	margin: 50px 0 50px 0;
+}
+
+.advancedyears {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin: 50px 0 50px 0;
+}
+.content {
+	overflow-x: hidden;
+	/* position: absolute; */
+	/* overflow-y: hidden; */
+	height: 100vh;
+	top: 75%;
+	left: 50%;
+	/* transform: translateX(-50%) translateY(-50%); */
+	width: 100%;
+	background: #272727;
+}
+    
+#one , #two {
+  float: left;
+}
+
+#three {
+	float: right;
+	clear: none;
+}
+
+#one, #two, #three {
+	width: 250px;
+	background: #3c3b3b;
+	height: 286px;
+	margin: 6px;
+	text-align: left;
+	border-radius: 6px;
+	font: normal 300 17px/1.5 'Roboto Mono' ,sans-serif;
+	color: white;
+	transition: box-shadow .5s;
+}
+
+#three_even{
+  background: #272727 !important;
+  float: right;
+	clear: none;
+  width: 250px;
+	height: 286px;
+	margin: 6px;
+}
+
+img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 104px;
+  overflow: hidden;
+}
+#one:hover, #two:hover, #three:hover {
+  box-shadow: 0px 0px 10px 0px rgb(104, 104, 104);
+}
+#one h3, #two h3, #three h3 {
+  margin: 10px 20px 10px 20px;
+  white-space: nowrap;
+}
+#one p, #two p, #three p {
+  margin: 10px 10px 10px 20px;
+  font-size: 17px;
+}
+.mybutton0 {
+  background-color: #4db7e5;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: Roboto Mono;
+  font-weight: bold;
+  position: absolute;
+  margin: 20px 0 20px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mybutton0 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.mybutton0 span::after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+
+  .mybutton0:hover span {
+    padding-right: 20px;
+  }
+  
+  .mybutton0:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+#button {
+  margin-left: 60%;
+}
+/*footer starts*/
+.footer {
+        background-color: #272727;
+        padding: 10px 10px 0px 10px;
+        color: white;
+}
+
+.inner-footer {
+        font-family: 'Roboto Mono';
+        font-weight: bold;
+        text-align: center;
+        background-color: #3c3b3b;
+        padding: 10px;
+        line-height: 2.5;
+        border-radius: 10px 10px 0 0;
+        color: white;
+}
+    
+    #greeting { 
+        font-family: 'Roboto Mono';
+        font-weight: bold;
+        text-align: center;
+        line-height: 2.5;
+        color: white;
+    }
+     /* Style all font awesome icons */
+     .fa {
+      font: normal normal normal 14px/2 FontAwesome !important;
+      height: 30px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    /* Twitter */
+    .fa-telegram {
+      background: #378cce;
+      color: white;
+    } 
+    
+      /* footer ends*/

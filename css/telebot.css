@@ -1,0 +1,158 @@
+
+  
+  *{
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  .contain{
+    height: 100vh;
+    background-color: #272727;
+    position: relative;
+    overflow: hidden;
+   }
+   
+   .mysvg {
+     height: 400px;
+     width: 400px;
+     position: relative;
+     top: 30%;
+ }
+ 
+   .Bot {
+       position: absolute;
+       right: 40%;
+       top: 50%;
+       transform: translateX(100%) translateY(-50%);
+       margin-top: 50px;
+   }
+   
+ .card {
+   width: 600px;
+   height: 200px;
+   text-align: center;
+   left: 55%;
+   position: absolute;
+   transform: translateX(-100%) translateY(-50%);
+   top: 50%;
+ }
+ 
+ .title {
+   color: #c8c8c8;
+   font: normal 300 18px/1.5 'Ubuntu', sans-serif;
+   text-align: left;
+   margin-left: 30px;
+   padding: 0;
+   font-weight: bold;
+ }
+ 
+ .card h1 {
+     font: normal 300 64px/1.5 'Ubuntu', sans-serif;
+     text-align: left;
+     font-size: 50pt;
+     color: white;
+     margin-left: 30px;
+     white-space: nowrap;
+     letter-spacing: -4px;
+ }
+
+.mybutton {
+    background-color: #4db7e5;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    left: 5%;
+    position: absolute;
+    margin: 20px 0 20px 0;
+
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .mybutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .mybutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .mybutton:hover span {
+    padding-right: 25px;
+  }
+  
+  .mybutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /*footer starts*/
+  .footer {
+      background-color: #272727;
+      padding: 10px 10px 0px 10px;
+      color: white;
+  }
+  
+  .inner-footer {
+      font-family: 'Roboto Mono';
+      font-weight: bold;
+      text-align: center;
+      background-color: #3c3b3b;
+      padding: 10px;
+      line-height: 2.5;
+      border-radius: 10px 10px 0 0;
+      color: white;
+  }
+  
+  #greeting { 
+      font-family: 'Roboto Mono';
+      font-weight: bold;
+      text-align: center;
+      line-height: 2.5;
+      color: white;
+  }
+   /* Style all font awesome icons */
+   .fa {
+    font: normal normal normal 14px/2 FontAwesome !important;
+    height: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-telegram {
+    background: #378cce;
+    color: white;
+  } 
+  
+    /* footer ends*/
