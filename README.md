@@ -1,4 +1,8 @@
 # College-of-Science-Library
+<h3 align="center">Scilib</h3>
+<p align="center">
+  :microscope: Informations for <strong>everyone!</strong>
+</p>
 This Project is made by college of science students in order to help other students finiding proper material and information for their studies along the four years of BSc.
 
 ![one](https://user-images.githubusercontent.com/24223950/193067507-1832ffb6-d376-4de7-bbba-db25ceb8a6eb.png)
