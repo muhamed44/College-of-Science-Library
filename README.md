@@ -1,7 +1,7 @@
 # College-of-Science-Library
 <h3 align="center">Scilib</h3>
 <p align="center">
-  :microscope: Informations for <strong>everyone!</strong>
+  :microscope: Library made for <strong>College of Science - Suez University!</strong> students
 </p>
 This Project is made by college of science students in order to help other students finiding proper material and information for their studies along the four years of BSc.
 
